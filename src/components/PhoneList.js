@@ -1,8 +1,16 @@
 import React from 'react';
 
 const PhoneList = (props) => {
-  console.log(props.phones);
-  return <div className="PhoneList">PhoneList Component</div>;
+  const htmlCode = props.phones.map((phone) => {
+    console.log(phone);
+    return <li></li>;
+  });
+
+  return (
+    <div className="PhoneList">
+      <ul>{htmlCode}</ul>
+    </div>
+  );
 };
 
 export default PhoneList;
