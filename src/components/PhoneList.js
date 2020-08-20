@@ -1,5 +1,6 @@
 import React from 'react';
 import PhoneItem from './PhoneItem';
+import '../stylesheets/PhoneList.scss';
 
 const PhoneList = (props) => {
   const htmlCode = props.phones.map((phone) => {
@@ -13,7 +14,7 @@ const PhoneList = (props) => {
 
   return (
     <div className="PhoneList">
-      <ul>{htmlCode}</ul>
+      <ul className="list__container">{htmlCode}</ul>
     </div>
   );
 };

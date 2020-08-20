@@ -5,13 +5,13 @@
 }
 
 .App {
-  &_container {
+  &__container {
     font-family: $mainFont;
   }
 }
 
 .header {
-  &_container {
+  &__container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@
 }
 
 .footer {
-  &_container {
+  &__container {
     height: 20vh;
     display: flex;
     flex-direction: column;
