@@ -7,7 +7,11 @@ console.log(phonesData);
 const App = () => {
   return (
     <div className="App">
-      <ul>Holi Mundi</ul>
+      <header>The Ultimate Phone Catalogue</header>
+      <main>
+        <p>Holi Mundi</p>
+      </main>
+      <footer>Footer</footer>
     </div>
   );
 };
