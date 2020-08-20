@@ -1,0 +1,7 @@
+@import './core/_variables';
+
+.card {
+  &__container {
+    background-color: blueviolet;
+  }
+}
