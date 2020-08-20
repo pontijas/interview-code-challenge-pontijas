@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import phonesData from '../data/phones';
 import '../stylesheets/App.scss';
+import PhoneList from './PhoneList';
 
 const App = () => {
   const [phones] = useState(phonesData);
@@ -11,7 +12,7 @@ const App = () => {
     <div className="App">
       <header>The Ultimate Phone Catalogue</header>
       <main>
-        <p>Holi Mundi</p>
+        <PhoneList />
       </main>
       <footer>Footer</footer>
     </div>
