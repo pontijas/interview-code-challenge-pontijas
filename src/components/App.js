@@ -6,13 +6,11 @@ import PhoneList from './PhoneList';
 const App = () => {
   const [phones] = useState(phonesData);
 
-  console.log(phones);
-
   return (
-    <div className="App">
+    <div>
       <header>The Ultimate Phone Catalogue</header>
       <main>
-        <PhoneList />
+        <PhoneList phones={phones} />
       </main>
       <footer>Footer</footer>
     </div>

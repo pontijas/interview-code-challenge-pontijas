@@ -1,6 +1,7 @@
 import React from 'react';
 
-const PhoneList = () => {
+const PhoneList = (props) => {
+  console.log(props.phones);
   return <div className="PhoneList">PhoneList Component</div>;
 };
 
