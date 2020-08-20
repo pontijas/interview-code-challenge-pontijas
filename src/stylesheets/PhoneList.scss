@@ -8,3 +8,25 @@
     grid-template-rows: repeat(20, 1fr);
   }
 }
+
+// responsive
+
+@media all and (min-width: 768px) {
+  .list {
+    &__container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+    }
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .list {
+    &__container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+    }
+  }
+}
