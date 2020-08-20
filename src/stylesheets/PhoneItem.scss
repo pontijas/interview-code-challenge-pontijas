@@ -2,6 +2,12 @@
 
 .card {
   &__container {
-    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  &__img {
+    width: 8rem;
   }
 }

@@ -7,7 +7,7 @@ const PhoneItem = (props) => {
     <section className="card__container">
       <h2>{props.name}</h2>
       <p>{props.manufacturer}</p>
-      <img src="https://via.placeholder.com/200.png/09f/fff" alt="phone"></img>
+      <img src="https://via.placeholder.com/200.png/09f/fff" alt="phone" className="card__img"></img>
     </section>
   );
 };
