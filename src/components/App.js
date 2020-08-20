@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import phonesData from '../data/phones';
 import '../stylesheets/App.scss';
 
-console.log(phonesData);
-
 const App = () => {
+  const [phones] = useState(phonesData);
+
+  console.log(phones);
+
   return (
     <div className="App">
       <header>The Ultimate Phone Catalogue</header>
