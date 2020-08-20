@@ -3,10 +3,10 @@ import PhoneItem from './PhoneItem';
 
 const PhoneList = (props) => {
   const htmlCode = props.phones.map((phone) => {
-    console.log(phone);
+    // console.log(phone);
     return (
       <li key={phone.id}>
-        <PhoneItem />
+        <PhoneItem name={phone.name} />
       </li>
     );
   });
