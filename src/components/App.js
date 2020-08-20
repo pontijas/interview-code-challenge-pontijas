@@ -7,12 +7,16 @@ const App = () => {
   const [phones] = useState(phonesData);
 
   return (
-    <div>
-      <header>The Ultimate Phone Catalogue</header>
+    <div className="App_container">
+      <header className="header_container">
+        <h1>The Ultimate Phone Catalogue</h1>
+      </header>
       <main>
         <PhoneList phones={phones} />
       </main>
-      <footer>Footer</footer>
+      <footer className="footer_container">
+        <small>Footer</small>
+      </footer>
     </div>
   );
 };

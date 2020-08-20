@@ -2,5 +2,29 @@
 
 * {
   margin: 0;
-  font-family: $mainFont;
+}
+
+.App {
+  &_container {
+    font-family: $mainFont;
+  }
+}
+
+.header {
+  &_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+}
+
+.footer {
+  &_container {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
