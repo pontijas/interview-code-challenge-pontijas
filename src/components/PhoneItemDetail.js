@@ -9,8 +9,8 @@ const PhoneItemDetail = (props) => {
         <article className="modal__container">
           <div className="modal__header">
             <section>
-              <h2>Phone Name</h2>
-              <p>Manufacturer</p>
+              <h2>{props.phone.name}</h2>
+              <p>{props.phone.manufacturer}</p>
             </section>
             <button>Go Back</button>
           </div>
@@ -19,21 +19,13 @@ const PhoneItemDetail = (props) => {
             <section className="modal__properties">
               <ul className="modal__list">
                 <li className="modal__listItem">
-                  <p className="modal__description">Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, laborum officiis! Perferendis corporis perspiciatis suscipit molestiae! Molestiae cupiditate accusantium in delectus culpa et suscipit tempore quisquam? Earum quos aut iure.</p>
+                  <p className="modal__description">{props.phone.description}</p>
                 </li>
-                <li className="modal__listItem">
-                  <small>Color: </small>lorem ipsum ...
-                </li>
-                <li className="modal__listItem">
-                  <small>Screen: </small>lorem ipsum ...
-                </li>
-                <li className="modal__listItem">
-                  <small>Processor: </small>lorem ipsum ...
-                </li>
-                <li className="modal__listItem">
-                  <small>Ram: </small>lorem ipsum ...
-                </li>
-                <li>price</li>
+                <li className="modal__listItem">Color : {props.phone.color}</li>
+                <li className="modal__listItem">Screen: {props.phone.screen}</li>
+                <li className="modal__listItem">Processor: {props.phone.processor}</li>
+                <li className="modal__listItem">Ram: {props.phone.ram}</li>
+                <li>{props.phone.price}</li>
               </ul>
             </section>
           </div>
