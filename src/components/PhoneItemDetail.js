@@ -1,9 +1,10 @@
 import React from 'react';
+import '../stylesheets/PhoneItemDetail.scss';
 
 const PhoneItemDetail = (props) => {
   console.log('using PhoneItemDetail');
   return (
-    <article>
+    <article className="modal__container">
       <div>
         <section>
           <h2>Phone Name</h2>

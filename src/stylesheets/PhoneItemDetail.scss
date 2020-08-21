@@ -1,13 +1,10 @@
 @import './core/_variables';
 
-.card {
+.modal {
   &__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  &__img {
-    width: 8rem;
   }
 }
