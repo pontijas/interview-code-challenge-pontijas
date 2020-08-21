@@ -1,8 +1,39 @@
 import React from 'react';
 
 const PhoneItemDetail = (props) => {
-  // console.log(props.url);
-  return <section>PhoneItemDetail</section>;
+  console.log('using PhoneItemDetail');
+  return (
+    <article>
+      <div>
+        <section>
+          <h2>Phone Name</h2>
+          <p>Manufacturer</p>
+        </section>
+        <button>Go Back</button>
+      </div>
+      <div>
+        <img src="" tile="" alt="phone"></img>
+        <section>
+          <p>Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, laborum officiis! Perferendis corporis perspiciatis suscipit molestiae! Molestiae cupiditate accusantium in delectus culpa et suscipit tempore quisquam? Earum quos aut iure.</p>
+          <ul>
+            <li>
+              <small>color:</small>lorem ipsum ...
+            </li>
+            <li>
+              <small>screen:</small>lorem ipsum ...
+            </li>
+            <li>
+              <small>processor:</small>lorem ipsum ...
+            </li>
+            <li>
+              <small>ram:</small>lorem ipsum ...
+            </li>
+            <li>price</li>
+          </ul>
+        </section>
+      </div>
+    </article>
+  );
 };
 
 export default PhoneItemDetail;
