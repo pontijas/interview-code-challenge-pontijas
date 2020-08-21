@@ -11,11 +11,11 @@ import '../stylesheets/PhoneItem.scss';
 
 const PhoneItem = (props) => {
   return (
-    <section className="card__container">
+    <a href={`#/phone/${props.name}`} className="card__container">
       <h2>{props.name}</h2>
       <p>{props.manufacturer}</p>
-      <img src={phone1} title={props.url} alt="phone" className="card__img"></img>
-    </section>
+      <img src={phone1} title={props.name} alt="phone" className="card__img"></img>
+    </a>
   );
 };
 
