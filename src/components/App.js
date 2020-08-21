@@ -13,8 +13,8 @@ const App = () => {
     const foundPhone = phones.find((phone) => {
       return phone.name === phoneName;
     });
-    console.log(foundPhone);
-    return <PhoneItemDetail />;
+
+    return <PhoneItemDetail phone={foundPhone} />;
   };
 
   return (
