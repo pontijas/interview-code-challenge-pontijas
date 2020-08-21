@@ -20,7 +20,9 @@ const App = () => {
   return (
     <div className="App__container">
       <header className="header__container">
-        <h1>The Ultimate Phone Catalogue</h1>
+        <h1 className="header__title">
+          The ultimate <small className="header__small">phone catalogue</small>
+        </h1>
       </header>
       <main>
         <Switch>

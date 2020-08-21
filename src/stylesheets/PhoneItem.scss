@@ -2,11 +2,19 @@
 
 .card {
   &__container {
+    border: 0.1rem solid $shadow;
+    padding: 2rem 0;
     text-decoration: none;
+    color: inherit;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    &:hover {
+      background: linear-gradient(60deg, $blue 15%, $green 85%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
   }
   &__img {
     width: 8rem;
