@@ -4,7 +4,24 @@
   &__container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  }
+  &__header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+  &__info {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+  &__img {
+    border: 0.2rem solid purple;
+  }
+  &__properties {
+    border: 0.2rem solid orange;
+  }
+  &__list {
+    list-style: none;
   }
 }
