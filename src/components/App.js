@@ -19,15 +19,15 @@ const App = () => {
 
   return (
     <div className="App__container">
+      <Switch>
+        <Route path="/phone/:id" render={renderPhoneDetail} />
+      </Switch>
       <header className="header__container">
         <h1 className="header__title">
           The ultimate <small className="header__small">phone catalogue</small>
         </h1>
       </header>
       <main>
-        <Switch>
-          <Route path="/phone/:id" render={renderPhoneDetail} />
-        </Switch>
         <PhoneList phones={phones} />
       </main>
       <footer className="footer__container">
