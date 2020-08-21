@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../stylesheets/PhoneItemDetail.scss';
 import phone2 from '../images/Galaxy_S7.png';
-import icon from '../images/exit.png';
 
 const PhoneItemDetail = (props) => {
   return (
@@ -15,7 +14,7 @@ const PhoneItemDetail = (props) => {
               <p>{props.phone.manufacturer}</p>
             </section>
             <Link to="/#">
-              <img src={icon} alt="exit" title="exit" className="modal__icon"></img>
+              <span className="modal__icon fas fa-times-circle"></span>
             </Link>
           </div>
           <div className="modal__info">
