@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import phonesData from '../data/phones';
 import '../stylesheets/App.scss';
 import PhoneList from './PhoneList';
+// import PhoneItemDetail from './PhoneItemDetail';
 
 const App = () => {
   const [phones] = useState(phonesData);
