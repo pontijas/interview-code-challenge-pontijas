@@ -9,7 +9,11 @@ const App = () => {
   const [phones] = useState(phonesData);
 
   const renderPhoneDetail = (props) => {
-    console.log(props);
+    const phoneName = props.match.params.id;
+    const foundPhone = phones.find((phone) => {
+      return phone.name === phoneName;
+    });
+    console.log(foundPhone);
     return <PhoneItemDetail />;
   };
 

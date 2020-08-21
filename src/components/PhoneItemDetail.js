@@ -3,9 +3,6 @@ import '../stylesheets/PhoneItemDetail.scss';
 import phone2 from '../images/Galaxy_S7.png';
 
 const PhoneItemDetail = (props) => {
-  console.log(props.phones);
-  // props es un objeto que se llama phones y contiene ocho arrays. Cada array se llama como el número del index.
-
   return (
     <div className="modal__background">
       <div className="modal__dialogue">
