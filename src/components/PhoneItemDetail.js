@@ -7,7 +7,7 @@ const PhoneItemDetail = (props) => {
 
   return (
     <div className="modal__background">
-      <div className="modal__dialog">
+      <div className="modal__dialogue">
         <article className="modal__container">
           <div className="modal__header">
             <section>
