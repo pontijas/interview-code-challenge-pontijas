@@ -16,7 +16,10 @@ const App = () => {
         <PhoneList phones={phones} />
       </main>
       <footer className="footer__container">
-        <small>Footer</small>
+        <section class="footer__credits">
+          <small>GuideSmiths Interview Challenge</small>
+          <small>&copy; Cristina Pontijas 2020 </small>
+        </section>
       </footer>
     </div>
   );
