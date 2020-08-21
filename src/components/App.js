@@ -8,6 +8,11 @@ import PhoneItemDetail from './PhoneItemDetail';
 const App = () => {
   const [phones] = useState(phonesData);
 
+  const renderPhoneDetail = (props) => {
+    console.log(props);
+    return <PhoneItemDetail />;
+  };
+
   return (
     <div className="App__container">
       <header className="header__container">
@@ -15,7 +20,9 @@ const App = () => {
       </header>
       <main>
         <PhoneList phones={phones} />
-        <PhoneItemDetail phones={phones} />
+        <Switch>
+          <Route path="/phone/:id" render={renderPhoneDetail} />
+        </Switch>
       </main>
       <footer className="footer__container">
         <small>GuideSmiths Interview Challenge</small>

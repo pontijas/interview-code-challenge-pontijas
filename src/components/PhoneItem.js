@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Route, Switch } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import phone1 from '../images/IPhone_7.png';
 // import phone2 from '../images/Galaxy_S7.png';
 // import phone3 from '../images/Honor_10.png';
