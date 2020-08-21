@@ -28,6 +28,9 @@
     flex-flow: row nowrap;
     justify-content: space-between;
   }
+  &__icon {
+    height: 1.5rem;
+  }
   &__info {
     margin: 1rem;
     display: flex;

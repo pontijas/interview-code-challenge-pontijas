@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../stylesheets/PhoneItemDetail.scss';
 import phone2 from '../images/Galaxy_S7.png';
+import icon from '../images/exit.png';
 
 const PhoneItemDetail = (props) => {
   return (
@@ -12,7 +14,9 @@ const PhoneItemDetail = (props) => {
               <h2>{props.phone.name}</h2>
               <p>{props.phone.manufacturer}</p>
             </section>
-            <button>Go Back</button>
+            <Link to="/#">
+              <img src={icon} alt="exit" title="exit" className="modal__icon"></img>
+            </Link>
           </div>
           <div className="modal__info">
             <img src={phone2} tile="" alt="phone" className="modal__img"></img>
@@ -25,7 +29,7 @@ const PhoneItemDetail = (props) => {
                 <li className="modal__listItem">Screen: {props.phone.screen}</li>
                 <li className="modal__listItem">Processor: {props.phone.processor}</li>
                 <li className="modal__listItem">Ram: {props.phone.ram}</li>
-                <li>{props.phone.price}</li>
+                <li>Price: {props.phone.price}</li>
               </ul>
             </section>
           </div>
