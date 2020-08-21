@@ -14,7 +14,7 @@ const App = () => {
       </header>
       <main>
         <PhoneList phones={phones} />
-        <PhoneItemDetail />
+        <PhoneItemDetail phones={phones} />
       </main>
       <footer className="footer__container">
         <small>GuideSmiths Interview Challenge</small>

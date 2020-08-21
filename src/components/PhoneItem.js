@@ -15,7 +15,6 @@ const PhoneItem = (props) => {
       <h2>{props.name}</h2>
       <p>{props.manufacturer}</p>
       <img src={phone1} title={props.url} alt="phone" className="card__img"></img>
-      {/* img src={`../images/${props.url}`} */}
     </section>
   );
 };
