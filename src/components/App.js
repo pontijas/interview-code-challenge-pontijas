@@ -19,10 +19,10 @@ const App = () => {
         <h1>The Ultimate Phone Catalogue</h1>
       </header>
       <main>
-        <PhoneList phones={phones} />
         <Switch>
           <Route path="/phone/:id" render={renderPhoneDetail} />
         </Switch>
+        <PhoneList phones={phones} />
       </main>
       <footer className="footer__container">
         <small>GuideSmiths Interview Challenge</small>
