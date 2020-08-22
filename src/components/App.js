@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import phonesData from '../data/phones';
 import '../stylesheets/App.scss';
-import Loader from './Loader';
 import PhoneList from './PhoneList';
 import PhoneItemDetail from './PhoneItemDetail';
 
@@ -20,7 +19,6 @@ const App = () => {
 
   return (
     <div className="App__container">
-      <Loader></Loader>
       <Switch>
         <Route path="/phone/:id" render={renderPhoneDetail} />
       </Switch>
