@@ -5,6 +5,14 @@ The challenge consists in creating a simple product catalogue app using:
 * Rest API
 * Responsive Design
 
+## Installing :wrench:
+
+1. Install Node.js
+2. Download or clone the repository.
+3. Install local dependencies with $npm install.
+4. Launch project with $npm start.
+
+
 ## Component structure diagram ⚙
 
 ![](architecture.jpg)
@@ -20,18 +28,12 @@ The challenge consists in creating a simple product catalogue app using:
 - React Js
 - Git and Github
 
-## Installing :wrench:
+## Author
 
-1. Install Node.js
-2. Download or clone the repository.
-3. Install local dependencies with $npm install.
-4. Launch project with $npm start.
-
+* **Cristina Pontijas** :octocat: [pontijas](https://github.com/pontijas)
 
 Thanks for reading!
 Have a nice day 🌞
 
 
-## Author
 
-* **Cristina Pontijas** :octocat: [pontijas](https://github.com/pontijas)
