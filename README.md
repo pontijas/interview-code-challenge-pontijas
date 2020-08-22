@@ -25,7 +25,7 @@ The challenge consists in creating a simple product catalogue app using:
 1. Install Node.js
 2. Download or clone the repository.
 3. Install local dependencies with $npm install.
-4. Load the project with $npm start.
+4. Launch project with $npm start.
 
 
 Thanks for reading!
