@@ -19,14 +19,14 @@ The challenge consists in creating a simple product catalogue app using:
 
 ## Built With 🛠
 
-- HTML5
-- CSS3
-* Sass
-* CSS Grid
-* Flexbox
-- JavaScript
-- React Js
-- Git and Github
+* HTML5
+* CSS3
+*Sass
+*CSS Grid
+*Flexbox
+* JavaScript
+* React Js
+* Git and Github
 
 ## Author
 
