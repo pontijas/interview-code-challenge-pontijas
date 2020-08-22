@@ -17,6 +17,47 @@ https://github.com/guidesmiths/interview-code-challenges/blob/master/react/phone
 3. Install local dependencies with \$npm install.
 4. Launch project with \$npm start.
 
+## Folder Structure :open_file_folder:
+```
+`- _public
+   |   `favicon.ico
+   |   `index.html
+   |   `manifest.json
+   |   `logo192.png
+   |   `logo512.png
+   |   `robots.txt
+
+`- _src
+   |- components
+   |  |    `App.js
+   |  |    `Loader.js
+   |  |    `PhoneItem.js
+   |  |    `PhoneItemDetail.js
+   |  |    `PhoneList.js
+   |- images
+   |- data
+   |  |    `phones.js
+   |- stylesheets
+   |  |		|- core
+   |  |    	|	`- _variables.scss
+   |  |		|- components
+   |  |    	|	`- _App.scss
+   |  |    	|	`- _Loader.scss
+   |  |    	|	`- _PhoneItem.scss
+   |  |    	|	`- _PhoneItemDetail.scss
+   |  |    	|	`- _PhoneList.scss
+   |-index.css
+   |-index.js
+   |
+`- .gitignore
+`- architecture.jpg
+`- debug.log
+`- package.json
+`- package-lock.json
+`- README.md 
+
+```
+
 ## Component structure diagram ⚙
 
 ![](architecture.jpg)
