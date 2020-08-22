@@ -58,7 +58,7 @@ https://github.com/guidesmiths/interview-code-challenges/blob/master/react/phone
 
 ```
 
-## Component structure diagram ⚙
+## Component structure diagram 📌
 
 ![](architecture.jpg)
 
@@ -74,6 +74,10 @@ https://github.com/guidesmiths/interview-code-challenges/blob/master/react/phone
 - Git and Github
 - Responsive Design
    *Mobile First 
+   
+## Development ⚙
+
+The data has been put into a js file and exported as an array composed by eight objects (each object inlcudes the data of each phone model). This data has been saved into the state of App.js component and transferred to its children components by props.
 
 ## Author :octocat:
 
