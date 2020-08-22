@@ -11,16 +11,15 @@ The challenge consists in creating a simple product catalogue app using:
 
 ## Built With 🛠
 
-* HTML5 and CSS3
-- Sass
-- CSS Grid
-- Flexbox
-* JavaScript
-* React Js
-* Git and Github
-* Visual Code
+# HTML5 and CSS3
+* Sass
+* CSS Grid
+* Flexbox
+# JavaScript
+# React Js
+# Git and Github
 
-### Installing :wrench:
+## Installing :wrench:
 
 1. Install Node.js
 2. Download or clone the repository.
@@ -28,9 +27,9 @@ The challenge consists in creating a simple product catalogue app using:
 4. Load the project with $npm start.
 
 
-
 Thanks for reading!
 Have a nice day 🌞
+
 
 ## Author
 
