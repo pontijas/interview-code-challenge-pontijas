@@ -72,6 +72,8 @@ https://github.com/guidesmiths/interview-code-challenges/blob/master/react/phone
 - JavaScript
 - React Js
 - Git and Github
+- Responsive Design
+   *Mobile First 
 
 ## Author
 
