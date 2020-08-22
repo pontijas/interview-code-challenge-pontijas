@@ -75,9 +75,9 @@ https://github.com/guidesmiths/interview-code-challenges/blob/master/react/phone
 - Responsive Design
    *Mobile First 
 
-## Author
+## Author :octocat:
 
-- **Cristina Pontijas** :octocat: [pontijas](https://github.com/pontijas)
+- **Cristina Pontijas** - [pontijas](https://github.com/pontijas)
 
 Thanks for reading!
 Have a nice day 🌞
