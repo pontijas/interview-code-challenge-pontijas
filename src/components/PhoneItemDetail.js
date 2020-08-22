@@ -18,7 +18,7 @@ const PhoneItemDetail = (props) => {
             </Link>
           </div>
           <div className="modal__info">
-            <img src={phone2} tile="" alt="phone" className="modal__img"></img>
+            <img src={phone2} title={props.phone.name} alt="phone" className="modal__img"></img>
             <section className="modal__properties">
               <ul className="modal__list">
                 <li className="modal__listItem">
