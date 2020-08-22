@@ -17,8 +17,8 @@ const PhoneItem = (props) => {
     <Link to={`/phone/${props.name}`} className="card__container">
       <h2>{props.name}</h2>
       <p>{props.manufacturer}</p>
-      <img src={phone1} title={props.name} alt="phone" className="card__img"></img>
-      {/* <img src={`../images/${props.url}`} title={props.name} alt="phone" className="card__img"></img> */}
+      <img src={phone1} title={props.name} alt="phone" className="card__img" />
+      {/* <img src={`../images/${props.url}`} title={props.name} alt="phone" className="card__img" /> */}
     </Link>
   );
 };
