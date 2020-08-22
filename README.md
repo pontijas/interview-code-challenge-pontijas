@@ -6,6 +6,10 @@ The challenge consists in creating a simple product catalogue app using:
 - Rest API
 - Responsive Design
 
+## Instructions :clipboard:
+
+https://github.com/guidesmiths/interview-code-challenges/blob/master/react/phone-catalogue/instructions.md
+
 ## Installing :wrench:
 
 1. Install Node.js
