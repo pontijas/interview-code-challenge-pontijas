@@ -6,7 +6,7 @@ The challenge consists in creating a simple product catalogue app using:
 - Rest API
 - Responsive Design
 
-## Instructions :clipboard:
+## Challenge Instructions :clipboard:
 
 https://github.com/guidesmiths/interview-code-challenges/blob/master/react/phone-catalogue/instructions.md
 
