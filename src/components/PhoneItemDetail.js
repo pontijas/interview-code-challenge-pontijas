@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../stylesheets/PhoneItemDetail.scss';
+import '../stylesheets/_PhoneItemDetail.scss';
 import phone2 from '../images/Galaxy_S7.png';
 
 const PhoneItemDetail = (props) => {

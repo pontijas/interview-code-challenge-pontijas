@@ -8,7 +8,7 @@ import phone1 from '../images/IPhone_7.png';
 // import phone6 from '../images/ZenPhone_5.jpg';
 // import phone7 from '../images/Xiaomi_MI_A2.jpeg';
 // import phone8 from '../images/Moto_G6.png';
-import '../stylesheets/PhoneItem.scss';
+import '../stylesheets/_PhoneItem.scss';
 
 const PhoneItem = (props) => {
   return (

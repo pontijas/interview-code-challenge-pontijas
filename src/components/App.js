@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import phonesData from '../data/phones';
-import '../stylesheets/App.scss';
+import '../stylesheets/_App.scss';
 import PhoneList from './PhoneList';
 import PhoneItemDetail from './PhoneItemDetail';
 
