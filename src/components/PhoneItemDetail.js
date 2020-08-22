@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../stylesheets/_PhoneItemDetail.scss';
-import phone2 from '../images/Galaxy_S7.png';
 
 const PhoneItemDetail = (props) => {
+  console.log(props);
   return (
     <div className="modal__background">
       <div className="modal__dialogue">
@@ -18,7 +18,7 @@ const PhoneItemDetail = (props) => {
             </Link>
           </div>
           <div className="modal__info">
-            <img src={phone2} title={props.phone.name} alt="phone" className="modal__img"></img>
+            <img src={require(`../images/${props.phone.imageFileName}`)} title={props.phone.name} alt="phone" className="modal__img"></img>
             <section className="modal__properties">
               <ul className="modal__list">
                 <li className="modal__listItem">
