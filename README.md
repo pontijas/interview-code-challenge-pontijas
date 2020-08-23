@@ -73,7 +73,7 @@ https://github.com/guidesmiths/interview-code-challenges/blob/master/react/phone
 
 ## Development ⚙
 
-A RESTful API has been created to host the information about the different products using Express Library. This information, or better called data, is hosted in "proxy: localhost:5000". The data has been consumed using Axios and linked to the React App Project. The data has been saved into the main component 'App.js' state using 'hooks' and then transferred to its children components using 'props'.
+A RESTful API has been created to host the information about the different products using Express. This information, or better called data, is hosted in "proxy: localhost:5000". The data has been fetched using Axios and therefore linked to the React App Project. The data has been saved into the main component 'App.js' state using 'hooks' and then transferred to its children components using 'props'.
 
 ## Built With 🛠
 
