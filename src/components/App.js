@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import phonesData from '../data/phones';
-import '../stylesheets/App.scss';
+import '../stylesheets/_App.scss';
 import PhoneList from './PhoneList';
 import PhoneItemDetail from './PhoneItemDetail';
 
@@ -24,7 +24,7 @@ const App = () => {
       </Switch>
       <header className="header__container">
         <h1 className="header__title">
-          The ultimate <small className="header__small">phone catalogue</small>
+          The ultimate <span className="header__small">phone catalogue</span>
         </h1>
       </header>
       <main>

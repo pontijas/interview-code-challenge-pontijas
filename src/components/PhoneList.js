@@ -1,6 +1,6 @@
 import React from 'react';
 import PhoneItem from './PhoneItem';
-import '../stylesheets/PhoneList.scss';
+import '../stylesheets/_PhoneList.scss';
 
 const PhoneList = (props) => {
   const htmlCode = props.phones.map((phone) => {

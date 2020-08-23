@@ -1,5 +1,5 @@
 import React from 'react';
-import '../stylesheets/Loader.scss';
+import '../stylesheets/_Loader.scss';
 
 function Loader(props) {
   return props.isLoading ? (
