@@ -1,16 +1,22 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import phonesData from '../data/phones';
+import getDataFromApi from '../services/getDataFromApi';
 import '../stylesheets/_App.scss';
 import PhoneList from './PhoneList';
 import PhoneItemDetail from './PhoneItemDetail';
 
 const App = () => {
-  const [phones] = useState(phonesData);
+  const [items, setItems] = useState([]);
+
+  useEffect(() => {
+    getDataFromApi().then((data) => {
+      return setItems(data);
+    });
+  }, []);
 
   const renderPhoneDetail = (props) => {
     const phoneName = props.match.params.id;
-    const foundPhone = phones.find((phone) => {
+    const foundPhone = items.find((phone) => {
       return phone.name === phoneName;
     });
 
@@ -28,7 +34,7 @@ const App = () => {
         </h1>
       </header>
       <main>
-        <PhoneList phones={phones} />
+        <PhoneList items={items} />
       </main>
       <footer className="footer__container">
         <small>GuideSmiths Interview Challenge</small>

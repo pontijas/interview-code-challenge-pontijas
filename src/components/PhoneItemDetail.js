@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import '../stylesheets/_PhoneItemDetail.scss';
 
 const PhoneItemDetail = (props) => {
-  console.log(props);
   return (
     <div className="modal__background">
       <div className="modal__dialogue">

@@ -3,7 +3,7 @@ import PhoneItem from './PhoneItem';
 import '../stylesheets/_PhoneList.scss';
 
 const PhoneList = (props) => {
-  const htmlCode = props.phones.map((phone) => {
+  const htmlCode = props.items.map((phone) => {
     return (
       <li key={phone.id}>
         <PhoneItem name={phone.name} url={phone.imageFileName} manufacturer={phone.manufacturer} />
