@@ -3,7 +3,9 @@
 The challenge consists in creating a simple product catalogue app using:
 
 - React Js
-- Rest API
+- REST API
+- Axios 
+- Express
 - Responsive Design
 
 ## Challenge Instructions :clipboard:
@@ -12,13 +14,20 @@ https://github.com/guidesmiths/interview-code-challenges/blob/master/react/phone
 
 ## Installing :wrench:
 
-1. Install Node.js
+1. Install Node.js.
 2. Download or clone the repository.
-3. Install local dependencies with \$npm install.
-4. Launch project with \$npm start.
+3. Install local dependencies using \$ npm install.
+4. Open a parallel terminal and go into my-backend root then run $ node server.js. From this moment, localhost:5000 will be running the backend part of the project.
+5. Launch project in the other terminal using \$ npm start. From this moment, localhost:3000 will be running the frontend part of the project.
 
 ## Folder Structure :open_file_folder:
 ```
+`- _my-backend
+   |  |		|- node_modules
+`- package.json
+`- package-lock.json
+`- server.js
+
 `- _public
    |   `favicon.ico
    |   `index.html
@@ -35,8 +44,8 @@ https://github.com/guidesmiths/interview-code-challenges/blob/master/react/phone
    |  |    `PhoneItemDetail.js
    |  |    `PhoneList.js
    |- images
-   |- data
-   |  |    `phones.js
+   |- services
+   |  |    `getDataFromApi.js
    |- stylesheets
    |  |		|- core
    |  |    	|	`- _variables.scss
@@ -64,7 +73,7 @@ https://github.com/guidesmiths/interview-code-challenges/blob/master/react/phone
 
 ## Development ⚙
 
-The data has been put into a js file and exported as an array composed by eight objects (each object inlcudes the data of each phone model). This data has been saved into the state of App.js component and transferred to its children components by props.
+A RESTful API has been created to host the information about the different products using Express Library. This information, or better called data, is hosted in "proxy: localhost:5000". The data has been consumed using Axios and linked to the React App Project. The data has been saved into the main component 'App.js' state using 'hooks' and then transferred to its children components using 'props'.
 
 ## Built With 🛠
 
@@ -72,9 +81,11 @@ The data has been put into a js file and exported as an array composed by eight 
 - CSS3
   *Sass
   *CSS Grid
-  \*Flexbox
+  *Flexbox
 - JavaScript
 - React Js
+- Axios
+- Express
 - Git and Github
 - Responsive Design
    *Mobile First 
