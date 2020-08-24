@@ -39,7 +39,6 @@ https://github.com/guidesmiths/interview-code-challenges/blob/master/react/phone
 `- _src
    |- components
    |  |    `App.js
-   |  |    `Loader.js
    |  |    `PhoneItem.js
    |  |    `PhoneItemDetail.js
    |  |    `PhoneList.js
@@ -51,7 +50,6 @@ https://github.com/guidesmiths/interview-code-challenges/blob/master/react/phone
    |  |    	|	`- _variables.scss
    |  |		|- components
    |  |    	|	`- _App.scss
-   |  |    	|	`- _Loader.scss
    |  |    	|	`- _PhoneItem.scss
    |  |    	|	`- _PhoneItemDetail.scss
    |  |    	|	`- _PhoneList.scss
