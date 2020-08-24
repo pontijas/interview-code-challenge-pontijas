@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import getDataFromApi from '../services/getDataFromApi';
 import '../stylesheets/_App.scss';
+import Loader from './Loader';
 import PhoneList from './PhoneList';
 import PhoneItemDetail from './PhoneItemDetail';
 
